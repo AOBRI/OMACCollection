@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.AppMusicPlayerActivity">
+
+    <TextView
+        android:id="@+id/song_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="16dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/music_player_narrow_skies_i_want_the_wind_to_carry_me_midnight_horizons_album"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        style="?buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/play_button"
+            style="?buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_media_play"
+            android:drawablePadding="8dp"
+            android:drawableStart="@android:drawable/ic_media_play"
+            android:text="@string/music_player_play"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/pause_button"
+            style="?buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_media_pause"
+            android:drawablePadding="8dp"
+            android:drawableStart="@android:drawable/ic_media_pause"
+            android:text="@string/music_player_pause"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/audio_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="14dp"
+        android:padding="32dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/volume_down_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_volume_down_white_36dp" />
+
+        <TextView
+            android:id="@+id/volume_level_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/music_player_volume_level"
+            android:textSize="45sp"
+            android:textStyle="normal" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/volume_up_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_volume_up_white_36dp" />
+    </LinearLayout>
+
+</LinearLayout>

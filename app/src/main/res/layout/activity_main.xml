@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark_color"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginBottom="8dp"
+            android:background="@color/tan_background"
+            android:contentDescription="@string/one_million_arab_coders_logo_description"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/arabcoder_logo" />
+
+        <Button
+            android:id="@+id/happy_birthday_card_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/app_happy_birthday_card_name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/just_because_card_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/app_just_becuase_card_name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/cookie_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/app_cookie_name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/just_java_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/app_just_java_name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/court_counter_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/app_court_counter_name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/music_player_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/app_music_player_name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/miwok_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/app_miwok_name"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginTop="16dp"
+            android:background="@color/tan_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/list_item_height"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_weight="2"
+                android:contentDescription="@string/marsaf_al_mostaqbal_logo_description"
+                android:scaleType="centerInside"
+                android:src="@drawable/marsad_al_mostaqbal" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/list_item_height"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="3"
+                android:contentDescription="@string/udacity_logo_description"
+                android:scaleType="centerInside"
+                android:src="@drawable/udacity" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/list_item_height"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_weight="2"
+                android:contentDescription="@string/bayt_com_logo_description"
+                android:scaleType="centerInside"
+                android:src="@drawable/bayt" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="32dp"
+            android:text="@string/author_info"
+            android:textColor="@color/tan_background"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed" />
+
+
+    </LinearLayout>
+</ScrollView>

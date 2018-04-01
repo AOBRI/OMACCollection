@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AppJustBecauseCardActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/just_because_sad_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/justbecausesad" />
+
+    <TextView
+        android:id="@+id/a_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/just_because_a"
+        android:textColor="#607D8B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/just_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a_text"
+        android:layout_toLeftOf="@id/a_text"
+        android:layout_toStartOf="@id/a_text"
+        android:text="@string/just_because_just"
+        android:textColor="#78909C"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/because_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/just_text"
+        android:layout_toLeftOf="@id/just_text"
+        android:layout_toStartOf="@id/just_text"
+        android:text="@string/just_because_because"
+        android:textColor="#90A4AE"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/because_text"
+        android:layout_toLeftOf="@id/because_text"
+        android:layout_toStartOf="@id/because_text"
+        android:text="@string/just_because_card"
+        android:textColor="#B0BEC5"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/for_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_text"
+        android:layout_toEndOf="@id/card_text"
+        android:layout_toRightOf="@id/card_text"
+        android:text="@string/just_because_for"
+        android:textColor="#CFD8DC"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/you_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/for_text"
+        android:layout_toEndOf="@id/for_text"
+        android:layout_toRightOf="@id/for_text"
+        android:text="@string/just_because_you"
+        android:textColor="#ECEFF1"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

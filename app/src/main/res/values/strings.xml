@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--General App Strings -->
+    <string name="app_name">OMAC Collection</string>
+    <string name="author_info">This app was brought to you by:\nSoftware Engineer\nAhmed O. Nabri\nahmed.o.nabri@gmail.com</string>
+    <string name="marsaf_al_mostaqbal_logo_description">Marsaf Al-Mostaqbal Logo</string>
+    <string name="udacity_logo_description">Udacity Logo</string>
+    <string name="bayt_com_logo_description">Bayt.com Logo</string>
+    <string name="one_million_arab_coders_logo_description">One Million Arab Coders Logo</string>
+
+    <!---->
+    <!--Happy Birthday Card App Strings-->
+    <string name="app_happy_birthday_card_name">Happy Birthday Card</string>
+    <string name="happy_birthday_andy">Happy Birthday, Andy!</string>
+    <string name="from_ahmed">From, Ahmed!</string>
+    <string name="android_party_description">Android versions having a party</string>
+
+
+    <!---->
+    <!--Just Because Card App Strings-->
+    <string name="app_just_becuase_card_name">Just Because Card</string>
+    <string name="just_because_sad_description">A sad emo guy cryings</string>
+    <string name="just_because_a">A</string>
+    <string name="just_because_just">Just</string>
+    <string name="just_because_because">Because</string>
+    <string name="just_because_card">Card</string>
+    <string name="just_because_for">For</string>
+    <string name="just_because_you">You</string>
+
+    <!---->
+    <!--Cookie App Strings-->
+    <string name="app_cookie_name">Cookie</string>
+    <string name="cookie_im_so_full">I\'m so full</string>
+    <string name="uneaten_cookie_image_description">Image shows an un-eaten cookie and tea</string>
+    <string name="cookie_im_so_hungry">I\'m so hungry</string>
+    <string name="cookie_eat_cookie">EAT COOKIE</string>
+
+    <!---->
+    <!--Just Java App Strings-->
+    <!--Just Java App Title [CHAR LIMIT = NONE]-->
+    <string name="app_just_java_name">Just Java</string>
+    <!--Name EditText hint [CHAR LIMIT = 15]-->
+    <string name="name_hint">Customer Name</string>
+    <!--Header text for toppings list [CHAR LIMIT = NONE]-->
+    <string name="toppings_header">Toppings</string>
+    <!--Whipped Cream text for CheckBox item [CHAR LIMIT = 15]-->
+    <string name="whipped_cream">Whipped Cream</string>
+    <!--Chocolate text for CheckBox item [CHAR LIMIT = 15]-->
+    <string name="chocolate">Chocolate</string>
+    <!--Header text for quantity [CHAR LIMIT = NONE]-->
+    <string name="quantity_header">Quantity</string>
+    <!--Header text for order summary [CHAR LIMIT = NONE]-->
+    <string name="order_summary_header">Order Summary</string>
+    <!--Order button text contents [CHAR LIMIT = NONE]-->
+    <string name="order">Order</string>
+    <!--Subject for order summary email [CHAR LIMIT = NONE]-->
+    <string name="email_subject">Order Summary</string>
+    <!--Maximum number of coffee cups warning [CHAR LIMIT = NONE]-->
+    <string name="max_cups_limit">You cannot order more than 100 coffee cups</string>
+    <!--Minimum number of coffee cups warning [CHAR LIMIT = NONE]-->
+    <string name="min_cups_limit">You cannot order less than 1 coffee cup</string>
+    <!--Summary name header and value [CHAR LIMIT = 20]-->
+    <string name="summary_name">Name: <xliff:g example="John" id="name">%s</xliff:g></string>
+    <!--Summary whipped cream option and value [CHAR LIMIT = 20]-->
+    <string name="summary_whipped_cream">Add Whipped Cream? <xliff:g example="true" id="cream_topping">%b</xliff:g></string>
+    <!--Summary chocolate option and value [CHAR LIMIT = 20]-->
+    <string name="summary_chocolate">Add Chocolate? <xliff:g example="false" id="choco_topping">%b</xliff:g></string>
+    <!--Summary of ordered quantity and value [CHAR LIMIT = 20]-->
+    <string name="summary_quantity">Quantity: <xliff:g example="3" id="quantity">%d</xliff:g></string>
+    <!--Summary total price and value [CHAR LIMIT = 20]-->
+    <string name="summary_total">Total:  <xliff:g example="18" id="total">%s</xliff:g></string>
+    <!--Summary thank you text [CHAR LIMIT = NONE]-->
+    <string name="summary_thank_you">Thank You!</string>
+    <!--Email button text contents [CHAR LIMIT = NONE]-->
+    <string name="e_mail">Send E-mail</string>
+    <string name="just_java_summary_text">$0</string>
+    <string name="just_java_plus">+</string>
+    <string name="just_java_quantity">1</string>
+    <string name="just_java_minus">-</string>
+
+
+    <!---->
+    <!--Court Counter App Strings-->
+    <string name="app_court_counter_name">Court Counter</string>
+    <string name="court_counter_team_a">Team A</string>
+    <string name="court_counter_3_points">+3 Points</string>
+    <string name="court_counter_2_points">+2 Points</string>
+    <string name="court_counter_free_throw">Free Throw</string>
+    <string name="court_counter_team_b">Team B</string>
+    <string name="court_counter_0">0</string>
+    <string name="court_counter_reset">Reset</string>
+
+
+    <!---->
+    <!--Music Player App Strings-->
+    <string name="app_music_player_name">Music Player</string>
+    <string name="music_player_narrow_skies_i_want_the_wind_to_carry_me_midnight_horizons_album">Narrow Skies - I Want The Wind To Carry Me - Midnight Horizons Album</string>
+    <string name="music_player_play">Play</string>
+    <string name="music_player_pause">Pause</string>
+    <string name="music_player_volume_level">60</string>
+    <string name="music_player_plus">+</string>
+    <string name="music_player_minus">-</string>
+
+
+    <!---->
+    <!--Miwok App Strings -->
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_miwok_name">Learn Miwok</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="miwok_category_phrases">Phrases</string>
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="miwok_category_colors">Colors</string>
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="miwok_category_numbers">Numbers</string>
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="miwok_category_family">Family Members</string>
+    <string name="button_to_play_the_translated_word">Button to play the translated word.</string>
+    <string name="image_visualizing_the_word">Image visualizing the word</string>
+    <string name="image_that_indicates_clicking_will_play_a_sound">image that indicates clicking will play a sound.</string>
+
+
+</resources>

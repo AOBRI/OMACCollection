@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aobri.omaccollection">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity._LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity._MainActivity" />
+        <activity
+            android:name=".activity.AppHappyBirthdayCardActivity"
+            android:label="@string/app_happy_birthday_card_name" />
+        <activity
+            android:name=".activity.AppJustBecauseCardActivity"
+            android:label="@string/app_just_becuase_card_name"
+            android:theme="@style/DefaultTheme" />
+        <activity
+            android:name=".activity.AppCookieActivity"
+            android:label="@string/app_cookie_name"
+            android:theme="@style/DefaultTheme" />
+        <activity
+            android:name=".activity.AppJustJavaActivity"
+            android:label="@string/app_just_java_name"
+            android:theme="@style/JustJavaAppTheme" />
+        <activity
+            android:name=".activity.AppCourtCounterActivity"
+            android:label="@string/app_court_counter_name"
+            android:theme="@style/CourtCounterAppTheme" />
+        <activity
+            android:name=".activity.AppMusicPlayerActivity"
+            android:label="@string/app_music_player_name"
+            android:theme="@style/MusicPlayerAppTheme" />
+        <activity
+            android:name=".activity.AppMiwokActivity"
+            android:label="@string/app_miwok_name" />
+        <activity
+            android:name=".activity.NumbersActivity"
+            android:label="@string/miwok_category_numbers" />
+        <activity
+            android:name=".activity.FamilyActivity"
+            android:label="@string/miwok_category_family" />
+        <activity
+            android:name=".activity.ColorsActivity"
+            android:label="@string/miwok_category_colors" />
+        <activity
+            android:name=".activity.PhrasesActivity"
+            android:label="@string/miwok_category_phrases" />
+    </application>
+
+</manifest>
