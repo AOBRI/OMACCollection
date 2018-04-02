@@ -27,6 +27,7 @@ public class AppJustJavaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_just_java);
+        setTitle(R.string.app_just_java_name);
     }
 
     /**

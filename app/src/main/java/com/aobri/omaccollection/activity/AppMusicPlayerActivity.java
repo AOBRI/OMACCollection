@@ -48,6 +48,7 @@ public class AppMusicPlayerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_music_player);
+        setTitle(R.string.app_music_player_name);
 
         playButton = findViewById(R.id.play_button);
         pauseButton = findViewById(R.id.pause_button);

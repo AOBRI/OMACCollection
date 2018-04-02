@@ -37,20 +37,21 @@ public class ColorsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_word_list);
+        setTitle(R.string.miwok_category_colors);
 
         mAudioPlaybackManager = new AudioPlaybackManager(this);
         mAudioPlaybackManager.initialize();
 
         // Create a list of words
         final ArrayList<Word> colorWords = new ArrayList<>();
-        colorWords.add(new Word("Brown", "ṭakaakki", R.drawable.color_brown, R.raw.color_brown));
-        colorWords.add(new Word("Red", "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));
-        colorWords.add(new Word("Green", "chokokki", R.drawable.color_green, R.raw.color_green));
-        colorWords.add(new Word("Mustard Yellow", "chiwiiṭә", R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
-        colorWords.add(new Word("Dusty Yellow ", "ṭopiisә", R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
-        colorWords.add(new Word("White", "kelelli", R.drawable.color_white, R.raw.color_white));
-        colorWords.add(new Word("Gray", "ṭopoppi", R.drawable.color_gray, R.raw.color_gray));
-        colorWords.add(new Word("Black", "kululli", R.drawable.color_black, R.raw.color_black));
+        colorWords.add(new Word(getString(R.string.brown), "ṭakaakki", R.drawable.color_brown, R.raw.color_brown));
+        colorWords.add(new Word(getString(R.string.red), "weṭeṭṭi", R.drawable.color_red, R.raw.color_red));
+        colorWords.add(new Word(getString(R.string.green), "chokokki", R.drawable.color_green, R.raw.color_green));
+        colorWords.add(new Word(getString(R.string.mustard_yellow), "chiwiiṭә", R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
+        colorWords.add(new Word(getString(R.string.dusty_yellow), "ṭopiisә", R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
+        colorWords.add(new Word(getString(R.string.white), "kelelli", R.drawable.color_white, R.raw.color_white));
+        colorWords.add(new Word(getString(R.string.gray), "ṭopoppi", R.drawable.color_gray, R.raw.color_gray));
+        colorWords.add(new Word(getString(R.string.black), "kululli", R.drawable.color_black, R.raw.color_black));
 
         WordAdapter adapter = new WordAdapter(this, colorWords);
         ListView listView = findViewById(R.id.words_list_view);

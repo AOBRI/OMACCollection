@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryDark">@color/primary_dark_color</item>
         <item name="colorButtonNormal">@color/primary_color</item>
+        <item name="alertDialogStyle">@style/LocaleDialogTheme</item>
     </style>
 
     <!--Default App theme-->
@@ -15,6 +16,17 @@
         <item name="colorAccent">@color/musicPlayerColorAccent</item>
         <item name="colorButtonNormal">@color/musicPlayerColorAccent</item>
     </style>
+
+
+    <!--Language selection dialog theme-->
+    <style name="LocaleDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/primary_dark_color</item>
+        <item name="android:textColor">@color/tan_background</item>
+        <item name="android:textColorAlertDialogListItem">@color/tan_background</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
 
     <!--Just Java App custom styles-->
     <!--Just java App theme-->
@@ -71,5 +83,5 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">@dimen/main_text_size</item>
     </style>
-
 </resources>
+

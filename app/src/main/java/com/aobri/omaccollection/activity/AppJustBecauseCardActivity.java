@@ -11,5 +11,6 @@ public class AppJustBecauseCardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_just_because_card);
+        setTitle(R.string.app_just_becuase_card_name);
     }
 }

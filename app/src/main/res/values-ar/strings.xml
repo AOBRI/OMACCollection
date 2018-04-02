@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <!--General strings-->
+    <string name="app_name">تجميعة مليون مبرمج عربي</string>
+    <string name="author_info">مطور التطبيق: \nمهندس البرمجيات \nأحمد عثمان نابري \nahmed.o.nabri@gmail.com</string>
+    <string name="marsad_al_mostaqbal_logo_description">شعار مرصد المستقبل</string>
+    <string name="udacity_logo_description">شعار يوداسيتي</string>
+    <string name="bayt_com_logo_description">شعار بيت.كوم</string>
+    <string name="one_million_arab_coders_logo_description">شعار مليون مبرمج عربي</string>
+    <string name="select_locale">اختر لغتك المفضلة:</string>
+
+    <!--Happy Birthday Card App strings-->
+    <string name="app_happy_birthday_card_name">بطاقة عيد ميلاد سعيد</string>
+    <string name="happy_birthday_andy">عيد ميلاد سعيد، آندي</string>
+    <string name="from_ahmed">من، أحمد!</string>
+    <string name="android_party_description">إصدارات أندرويد تحتفل سويا</string>
+
+    <!--Just Because Card App strings-->
+    <string name="app_just_becuase_card_name">بطاقة بدون سبب</string>
+    <string name="just_because_sad_description">رجل إيمو حزين يبكي</string>
+    <string name="just_because_a"> </string>
+    <string name="just_because_just">بطاقة</string>
+    <string name="just_because_because">بدون</string>
+    <string name="just_because_card">سبب</string>
+    <string name="just_because_for">لـ</string>
+    <string name="just_because_you">أجلك</string>
+
+    <!--Cookie App strings-->
+    <string name="app_cookie_name">كعكة</string>
+    <string name="cookie_im_so_full">أنا ممتليء جداً!</string>
+    <string name="uneaten_cookie_image_description">صورة تستعرض كعكة غير مأكولة و شاي</string>
+    <string name="cookie_im_so_hungry">أنا جائع جدا!</string>
+    <string name="cookie_eat_cookie">تناول كعكة</string>
+
+
+    <!--Just Java App-->
     <!--Just Java App Title [CHAR LIMIT = NONE]-->
-    <string name="app_just_java_name">الجافا فقط</string>
+    <string name="app_just_java_name">جافا فقط</string>
     <!--Name EditText hint [CHAR LIMIT = 15]-->
     <string name="name_hint">اسم العميل</string>
     <!--Header text for toppings list [CHAR LIMIT = NONE]-->
@@ -36,12 +72,68 @@
     <string name="summary_thank_you">شكراَ لك!</string>
     <!--Email button text contents [CHAR LIMIT = NONE]-->
     <string name="e_mail">أرسل بالبريد الالكتروني</string>
-    <string name="app_name">مجموعة م.م.ع</string>
-    <string name="author_info">مطور التطبيق: \nمهندس البرمجيات \nأحمد عثمان نابري \nahmed.o.nabri@gmail.com</string>
-    <string name="app_happy_birthday_card_name">بطاقة عيد ميلاد سعيد</string>
-    <string name="app_just_becuase_card_name">بطاقة بدون سبب</string>
-    <string name="app_cookie_name">كعكة</string>
+
+    <!--Court Count App strings-->
     <string name="app_court_counter_name">عداد الملعب</string>
+    <string name="court_counter_team_a">فريق أ</string>
+    <string name="court_counter_3_points">+3 نقاط</string>
+    <string name="court_counter_2_points">+2 نقاط</string>
+    <string name="court_counter_free_throw">رمية حرة</string>
+    <string name="court_counter_team_b">فريق ب</string>
+    <string name="court_counter_reset">إعادة تعيين</string>
+
+    <!--Music Player App strings-->
     <string name="app_music_player_name">مشغل الموسيقى</string>
+    <string name="music_player_play">تشغيل</string>
+    <string name="music_player_pause">إيقاف مؤقت</string>
+
+    <!--Miwok App strings-->
     <string name="app_miwok_name">تعلم لغة الميووك</string>
+    <string name="miwok_category_phrases">عبارات</string>
+    <string name="miwok_category_colors">ألوان</string>
+    <string name="miwok_category_numbers">أرقام</string>
+    <string name="miwok_category_family">أعضاء العائلة</string>
+    <string name="button_to_play_the_translated_word">صورة زر لتشغيل تسجيل ترجمة الكلمة</string>
+    <string name="image_visualizing_the_word">صورة تستعرض معنى الكلمة</string>
+    <string name="image_that_indicates_clicking_will_play_a_sound">صورة تشير إلى أن الضغط سوف يشغل صوتا</string>
+    <string name="are_you_coming">هل أنت قادم؟</string>
+    <string name="black">أسود</string>
+    <string name="brown">بني</string>
+    <string name="come_here">تعال إلى هنا.</string>
+    <string name="daughter">ابنة</string>
+    <string name="dusty_yellow">أصفر مغبر</string>
+    <string name="eight">ثمانية</string>
+    <string name="father">أب</string>
+    <string name="five">خمسة</string>
+    <string name="four">أربعة</string>
+    <string name="grandfather">جد</string>
+    <string name="grandmother">جدة</string>
+    <string name="gray">رمادي</string>
+    <string name="green">أخضر</string>
+    <string name="how_are_you_feeling">كيف تشعر؟</string>
+    <string name="im_coming">أنا قادم.</string>
+    <string name="im_feeling_good">أنا أحس بشعور جيد.</string>
+    <string name="lets_go">فلنذهب</string>
+    <string name="mother">أم</string>
+    <string name="mustard_yellow">أصفر خردلي</string>
+    <string name="my_name_is">اسمي هو…</string>
+    <string name="nine">تسعة</string>
+    <string name="older_brother">أخ أكبر</string>
+    <string name="older_sister">أخت أكبر</string>
+    <string name="one">واحد</string>
+    <string name="red">أحمر</string>
+    <string name="seven">سبعة</string>
+    <string name="six">ستة</string>
+    <string name="son">ابن</string>
+    <string name="ten">عشرة</string>
+    <string name="three">ثلاثة</string>
+    <string name="two">اثنان</string>
+    <string name="what_is_your_name">ما اسمك؟</string>
+    <string name="where_are_you_going">إلى أين أنت ذاهب؟</string>
+    <string name="white">أبيض</string>
+    <string name="yes_im_coming">نعم، أنا قادم.</string>
+    <string name="younger_brother">أخ أصغر</string>
+    <string name="younger_sister">أخت أصغر</string>
+
+
 </resources>

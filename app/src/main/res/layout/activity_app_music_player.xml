@@ -67,6 +67,7 @@
             android:id="@+id/volume_down_button"
             android:layout_width="48dp"
             android:layout_height="48dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/ic_volume_down_white_36dp" />
 
         <TextView
@@ -83,6 +84,7 @@
             android:id="@+id/volume_up_button"
             android:layout_width="48dp"
             android:layout_height="48dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/ic_volume_up_white_36dp" />
     </LinearLayout>
 

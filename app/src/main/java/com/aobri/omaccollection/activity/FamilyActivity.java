@@ -24,22 +24,23 @@ public class FamilyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_word_list);
+        setTitle(R.string.miwok_category_family);
 
         mAudioPlaybackManager = new AudioPlaybackManager(this);
         mAudioPlaybackManager.initialize();
 
         // Create a list of words
         final ArrayList<Word> familyWords = new ArrayList<>();
-        familyWords.add(new Word("Father", "әpә", R.drawable.family_father, R.raw.family_father));
-        familyWords.add(new Word("Mother", "әṭa", R.drawable.family_mother, R.raw.family_mother));
-        familyWords.add(new Word("Son", "angsi", R.drawable.family_son, R.raw.family_son));
-        familyWords.add(new Word("Daughter", "tune", R.drawable.family_daughter, R.raw.family_daughter));
-        familyWords.add(new Word("Older brother", "taachi", R.drawable.family_older_brother, R.raw.family_older_brother));
-        familyWords.add(new Word("Younger brother", "chalitti", R.drawable.family_younger_brother, R.raw.family_younger_brother));
-        familyWords.add(new Word("Older sister", "teṭe", R.drawable.family_older_sister, R.raw.family_older_sister));
-        familyWords.add(new Word("Younger sister", "kolliti", R.drawable.family_younger_sister, R.raw.family_younger_sister));
-        familyWords.add(new Word("Grandmother", "ama", R.drawable.family_grandmother, R.raw.family_grandmother));
-        familyWords.add(new Word("Grandfather", "paapa", R.drawable.family_grandfather, R.raw.family_grandfather));
+        familyWords.add(new Word(getString(R.string.father), "әpә", R.drawable.family_father, R.raw.family_father));
+        familyWords.add(new Word(getString(R.string.mother), "әṭa", R.drawable.family_mother, R.raw.family_mother));
+        familyWords.add(new Word(getString(R.string.son), "angsi", R.drawable.family_son, R.raw.family_son));
+        familyWords.add(new Word(getString(R.string.daughter), "tune", R.drawable.family_daughter, R.raw.family_daughter));
+        familyWords.add(new Word(getString(R.string.older_brother), "taachi", R.drawable.family_older_brother, R.raw.family_older_brother));
+        familyWords.add(new Word(getString(R.string.younger_brother), "chalitti", R.drawable.family_younger_brother, R.raw.family_younger_brother));
+        familyWords.add(new Word(getString(R.string.older_sister), "teṭe", R.drawable.family_older_sister, R.raw.family_older_sister));
+        familyWords.add(new Word(getString(R.string.younger_sister), "kolliti", R.drawable.family_younger_sister, R.raw.family_younger_sister));
+        familyWords.add(new Word(getString(R.string.grandmother), "ama", R.drawable.family_grandmother, R.raw.family_grandmother));
+        familyWords.add(new Word(getString(R.string.grandfather), "paapa", R.drawable.family_grandfather, R.raw.family_grandfather));
 
         WordAdapter adapter = new WordAdapter(this, familyWords);
         ListView listView = findViewById(R.id.words_list_view);

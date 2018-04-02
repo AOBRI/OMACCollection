@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 
 import com.aobri.omaccollection.R;
 
+import java.util.ArrayList;
 import java.util.Locale;
 
 /**
@@ -25,15 +26,22 @@ public class _LauncherActivity extends AppCompatActivity {
         showLocaleAlertDialog();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
     private void showLocaleAlertDialog() {
 
-        final AlertDialog.Builder builderSingle;
-        builderSingle = new AlertDialog.Builder(this);
-        builderSingle.setTitle("Select Preferred Language:");
+        AlertDialog.Builder builderSingle;
+        builderSingle = new AlertDialog.Builder(this, R.style.LocaleDialogTheme);
+        builderSingle.setTitle(R.string.select_locale);
 
-        final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.select_dialog_singlechoice);
-        arrayAdapter.add("English");
-        arrayAdapter.add("Arabic");
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("English");
+        arrayList.add("العربية");
+
+        final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.custom_dialog_list_item, arrayList);
 
         builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
             @Override
@@ -46,7 +54,7 @@ public class _LauncherActivity extends AppCompatActivity {
                         startActivity(new Intent(_LauncherActivity.this, _MainActivity.class));
                         finish();
                         break;
-                    case "Arabic":
+                    case "العربية":
                         setApplicationLocale(new Locale("ar"));
                         startActivity(new Intent(_LauncherActivity.this, _MainActivity.class));
                         finish();

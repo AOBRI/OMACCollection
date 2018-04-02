@@ -12,6 +12,7 @@
         android:layout_height="0dp"
         android:layout_weight="9"
         android:contentDescription="@string/uneaten_cookie_image_description"
+        android:rotationY="@integer/locale_mirror_flip"
         android:scaleType="centerCrop"
         android:src="@drawable/before_cookie" />
 

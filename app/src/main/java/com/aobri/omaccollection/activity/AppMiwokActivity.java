@@ -30,6 +30,7 @@ public class AppMiwokActivity extends AppCompatActivity implements OnClickListen
         super.onCreate(savedInstanceState);
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_app_miwok);
+        setTitle(R.string.app_miwok_name);
 
         // Find the TextView that shows the category name and set its click listener
         findViewById(R.id.numbers).setOnClickListener(this);

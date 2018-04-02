@@ -15,6 +15,7 @@ public class AppCookieActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_cookie);
+        setTitle(R.string.app_cookie_name);
     }
 
     /**

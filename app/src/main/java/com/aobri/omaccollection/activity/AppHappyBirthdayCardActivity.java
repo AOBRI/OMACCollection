@@ -11,5 +11,6 @@ public class AppHappyBirthdayCardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_happy_birthday_card);
+        setTitle(R.string.app_happy_birthday_card_name);
     }
 }

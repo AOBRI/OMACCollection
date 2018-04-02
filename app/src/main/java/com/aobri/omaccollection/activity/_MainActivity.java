@@ -15,20 +15,13 @@
  */
 package com.aobri.omaccollection.activity;
 
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.View.OnClickListener;
 
 import com.aobri.omaccollection.R;
-
-import java.util.Locale;
 
 
 public class _MainActivity extends AppCompatActivity implements OnClickListener {
@@ -39,6 +32,7 @@ public class _MainActivity extends AppCompatActivity implements OnClickListener 
         super.onCreate(savedInstanceState);
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
+        setTitle(R.string.app_name);
 
         findViewById(R.id.happy_birthday_card_button).setOnClickListener(this);
         findViewById(R.id.just_because_card_button).setOnClickListener(this);
